@@ -16,7 +16,7 @@ pipeline {
         stage('Code Analysis') {
             steps {
                 echo 'Analyzing code with SonarQube'
-                // Tool: SonarQube
+                // Tool: SonarQube for analysing
             }
         }
         stage('Security Scan') {
